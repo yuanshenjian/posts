@@ -4,8 +4,9 @@ layout: post
 title: "重构七宗罪"
 date: 2016-03-04
 categories: [eXtreme Programming]
-tags: [Refactoring]
-for: xp
+tag: [Refactoring]
+toXP: true
+
 author: "禚娴静"
 origin: "https://insights.thoughtworks.cn/refactoring/"
 
