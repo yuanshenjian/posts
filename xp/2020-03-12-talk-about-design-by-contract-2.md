@@ -49,15 +49,15 @@ P和Q是**断言**，C是**命令** 。P叫做**前置条件**，Q叫做**后置
 
 
 ## DbC在OOD中的应用
-结合DbC的描述，我们来看看，上文中提到的Rectangle和Square，`Rectangle.setWidth(double width)`
+借助DbC的设计思想，我们来看看上文中提到的Rectangle和Square，`Rectangle.setWidth(double width)`
 
-- 前置条件是：assert type width is double
+- 前置条件是：assert type width is double && above 0.0
 - 后置条件是：assert this.width == new.width && this.height = old.height
 
 
 而`Square.setWidth(double width)`：
 
-- 前置条件是：assert type width is double
+- 前置条件是：assert type width is double && above 0.0
 - 后置条件是：assert this.width == new.width && this.height = new.width
 
 同理，setHeight的方法也是如此。
