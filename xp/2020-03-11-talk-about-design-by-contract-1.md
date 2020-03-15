@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "简单聊聊契约式设计（上）"
+title: "契约式设计对里氏替换原则的支撑（上）"
 date: 2020-03-11
 categories: [eXtreme Programming]
 tag: [eXtreme Programming]
@@ -65,7 +65,7 @@ public class Square extends Rectangle {
 }
 ```
 
-存在这样子的用户使用场景：
+存在这样子的用户	使用场景：
 
 ```java
 public class Client {
